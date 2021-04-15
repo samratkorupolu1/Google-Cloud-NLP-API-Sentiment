@@ -112,7 +112,7 @@ df.to_csv('sayfiereview.csv')
 # In[48]:
 
 
-df['sentiment score'].hist(bins=20)
+df['sentiment_score'].hist(bins=20)
 
 
 # In[65]:
