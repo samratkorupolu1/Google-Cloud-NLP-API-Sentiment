@@ -155,13 +155,13 @@ neg.sort_values(by=['sentiment_score'], inplace=True)
 # In[110]:
 
 
-pos.head(10)
+print(pos.head(10))
 
 
 # In[111]:
 
 
-neg.head(10)
+print(neg[0:10])
 
 
 # In[ ]:
