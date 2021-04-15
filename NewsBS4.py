@@ -70,8 +70,7 @@ df = df.drop(df.index[0])
 
 
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "https://github.com/samratkorupolu1/Sentiment_FLNEWS_GCNLP/blob/main/sentiment-310619-8cf4e49950c0.json"
-
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= path
 
 # In[7]:
 
