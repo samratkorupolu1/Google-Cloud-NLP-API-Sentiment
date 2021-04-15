@@ -68,7 +68,7 @@ df = df.drop(df.index[0])
 
 # In[6]:
 
-
+path = "C:\\Users\\carlsod\\AppData\\Local\\Temp\\Engine_14584_aaa14cb3be8d43fd8a4a81761363e67e_\\818c08a7-b06f-48f3-bef2-af6ff7eda262\\Sentiment_FLNEWS_GCNLP\\sentiment-310619-8cf4e49950c0.json"
 import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= path
 
